@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/weapons",
+      "handler": "Weapon.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/weapons/count",
+      "handler": "Weapon.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/weapons/:id",
+      "handler": "Weapon.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/weapons",
+      "handler": "Weapon.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/weapons/:id",
+      "handler": "Weapon.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/weapons/:id",
+      "handler": "Weapon.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

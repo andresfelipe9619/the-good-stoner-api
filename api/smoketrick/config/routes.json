@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/smoketricks",
+      "handler": "Smoketrick.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/smoketricks/count",
+      "handler": "Smoketrick.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/smoketricks/:id",
+      "handler": "Smoketrick.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/smoketricks",
+      "handler": "Smoketrick.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/smoketricks/:id",
+      "handler": "Smoketrick.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/smoketricks/:id",
+      "handler": "Smoketrick.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

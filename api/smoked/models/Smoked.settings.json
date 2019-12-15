@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "smoked",
+  "info": {
+    "name": "smoked",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "user": {
+      "model": "user",
+      "via": "smokeds",
+      "plugin": "users-permissions"
+    },
+    "date": {
+      "required": true,
+      "type": "date"
+    },
+    "weapon": {
+      "model": "weapon"
+    }
+  }
+}
