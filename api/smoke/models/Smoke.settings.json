@@ -2,7 +2,7 @@
   "connection": "default",
   "collectionName": "smoked",
   "info": {
-    "name": "smoked",
+    "name": "smoke",
     "description": ""
   },
   "options": {
@@ -23,6 +23,20 @@
     },
     "weapon": {
       "model": "weapon"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "highness": {
+      "enum": [
+        "sober",
+        "buzzed",
+        "high",
+        "reallyHigh",
+        "blazed",
+        "inSpace"
+      ],
+      "type": "enumeration"
     }
   }
 }

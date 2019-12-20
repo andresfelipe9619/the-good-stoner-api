@@ -1,17 +1,23 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "weapon",
   "info": {
     "name": "weapon",
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "name": {
       "required": true,
       "unique": true,
+      "type": "string"
+    },
+    "icon": {
       "type": "string"
     }
   }

@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `Smoked` model.
+ * Lifecycle callbacks for the `Smoke` model.
  */
 
 module.exports = {

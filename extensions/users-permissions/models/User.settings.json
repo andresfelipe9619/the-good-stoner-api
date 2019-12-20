@@ -57,7 +57,7 @@
       "configurable": false
     },
     "smokeds": {
-      "collection": "smoked",
+      "collection": "smoke",
       "via": "user"
     }
   }

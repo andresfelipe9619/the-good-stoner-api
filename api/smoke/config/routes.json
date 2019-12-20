@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/smokeds",
-      "handler": "Smoked.find",
+      "path": "/smokes",
+      "handler": "Smoke.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/smokeds/count",
-      "handler": "Smoked.count",
+      "path": "/smokes/count",
+      "handler": "Smoke.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/smokeds/:id",
-      "handler": "Smoked.findOne",
+      "path": "/smokes/:id",
+      "handler": "Smoke.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/smokeds",
-      "handler": "Smoked.create",
+      "path": "/smokes",
+      "handler": "Smoke.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/smokeds/:id",
-      "handler": "Smoked.update",
+      "path": "/smokes/:id",
+      "handler": "Smoke.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/smokeds/:id",
-      "handler": "Smoked.delete",
+      "path": "/smokes/:id",
+      "handler": "Smoke.delete",
       "config": {
         "policies": []
       }
