@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"thegoodstoner.users-permissions_user"},{"v":2,"unique":true,"key":{"username":1},"name":"username_1","ns":"thegoodstoner.users-permissions_user","background":true}],"uuid":"3b87313d030e42be9f9512bf847c7276"}
