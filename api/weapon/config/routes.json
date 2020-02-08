@@ -33,6 +33,14 @@
       }
     },
     {
+      "method": "POST",
+      "path": "/weapons/insertTask",
+      "handler": "Weapon.insertTask",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "PUT",
       "path": "/weapons/:id",
       "handler": "Weapon.update",
