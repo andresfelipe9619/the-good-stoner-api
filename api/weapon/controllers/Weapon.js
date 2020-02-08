@@ -6,6 +6,6 @@
 
 module.exports = {
   insertTask: ctx => {
-    return strapi.services.weapon.insertTask(ctx);
+    return strapi.services.weapon.insertTask(ctx.request.body);
   }
 };
